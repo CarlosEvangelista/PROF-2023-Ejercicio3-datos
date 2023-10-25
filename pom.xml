@@ -9,6 +9,16 @@
 
 	<name>prof.curso2023.ejercicio3</name>
 
+	<reporting>	
+		<plugins>
+			<plugin>
+				<groupId>edu.rit.se.testsmells</groupId>
+				<artifactId>tsdetect-maven-plugin</artifactId>
+				<version>0.2</version>
+			</plugin>
+		</plugins>
+	</reporting>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
